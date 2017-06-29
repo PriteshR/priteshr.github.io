@@ -87,8 +87,7 @@
 		
 		
 		
-        /* Scroll To Top */
-		
+        /* Scroll To Top */		
         $(window).scroll(function(){
         if ($(this).scrollTop() >= 500) {
             $('.scroll-to-top').fadeIn();
@@ -110,7 +109,7 @@
 		
         $(window).load(function(){
         $(".typing").typed({
-            strings: ["I am an App Developer.", "Android and iOS.", "In Love With High Tech Gadgets And Coding :)."],
+            strings: ["I am an App Developer.", "Android and iOS.", "In Love With High Tech Gadgets And Coding :)"],
 	    typeSpeed: 50
           });
          });
